@@ -1,0 +1,4 @@
+FROM phpmyadmin/phpmyadmin
+
+ENV PMA_ARBITRARY=1
+EXPOSE 80
